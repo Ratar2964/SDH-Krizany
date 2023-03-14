@@ -1,0 +1,44 @@
+.obsah {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+body div hr {
+    width: 35em;
+}
+section table tr {
+    height: 2em;
+}
+td {
+    font-size: 18px;
+    width: 14em;
+}
+.spol {
+    width: 85%;
+    height: 20em;
+    object-fit: cover;
+    margin-left: 7.5%;
+    margin-top: 3em;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .obsah {
+        flex-direction: column;
+    }
+    .obsah section {
+        width: 90%;
+    }
+    body div hr {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .obsah {
+        margin-left: 20px;
+    }
+}
